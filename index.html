@@ -8,7 +8,14 @@
 </head>
 <body>
     <div class="left-panel">
-        <img src="./images/background1.jpg" alt="mountain image" class="image">
+            <div class="banderole">
+                <img src="./images/odin-lined.png" alt="The Odin logo" class="logo"> 
+                <div class="msg-div">
+                    <br><br>
+                    <p id="msg"> ODIN </p>
+                </div>
+                
+            </div>
     </div>
     <div class="right-panel">
         <section class="first" id="section-one">
@@ -20,19 +27,35 @@
             <p class="first-section-text" id="two">You know you want to.</p>
         </section>
         <section class="second">
-            <form action="example.com/path" method="post">
-                <label for="first_name">First Name:</label>
-                <input type="text" id="first_name" name="first_name" placeholder="Enter your first name">
-                <label for="last_name">Last Name:</label>
-                <input type="text" id="last_name"  name="last_name" placeholder="Enter your last name">
-                <label for="user_email">Email Address:</label>
-                <input type="email" id="user_email" name="email" placeholder="you@example.com">
-                <label for="user_password">Password:</label>
-                <input type="password" id="user_password" name="password">
+            <p class="introduction">Join the adventure </p> <br><br>
+            <form action="example.com/path" method="post" class="form">
+                <div id="column-A">
+                    <label for="first_name">FIRST NAME</label> <br>
+                    <input type="text" id="first_name" name="first_name"> <br> <br> <br>
+                    <label for="user_email">EMAIL</label><br>
+                    <input type="email" id="user_email" name="email"> <br> <br> <br>
+                    <label for="user_password">PASSWORD</label><br>
+                    <input type="password" id="user_password" name="password">
+                </div>
+                <div id="column-B">
+                    <label for="last_name">LAST NAME</label><br>
+                    <input type="text" id="last_name"  name="last_name"> <br> <br> <br>
+                    <label for="phone"> PHONE NNUMBER </label><br>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required /> <br> <br> <br>
+                    <label for="user_password">CONFIRM PASSWORD</label><br>
+                    <input type="password" id="user_password" name="password">
+
+
+                </div>
+
+                
+               
+                
                 
             </form>
         </section>
         <section class="third">
+            <br> <br> <br>
             <button class="button">Create Account</button>
             <br>
             <br>
